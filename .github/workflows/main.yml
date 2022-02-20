@@ -1,0 +1,13 @@
+- name: Deta Deploy
+  # You may pin to the exact commit or the version.
+  # uses: HarshKapadia2/deta-deploy@d26c4f7974e154ad140faa21152e11c7c20f27ff
+  uses: HarshKapadia2/deta-deploy@v1.0.2
+  with:
+    # Deta access token.
+    deta-access-token:3kd2BPWu_QsRRTZemYGADjbHu1i2AgGF4M4Z9eJUS
+    # Deta Micro name.
+    deta-name:default
+    # Deta project name.
+    deta-project: # optional, default is default
+    # Directory of the project to be deployed.
+    deta-project-dir: # optional, default is .
